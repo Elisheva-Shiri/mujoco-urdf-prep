@@ -1,0 +1,20 @@
+[project]
+name = "mujoco-proj"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dm-control>=1.0.30",
+    "mujoco>=3.3.2",
+    "mujoco-tools>=0.1.0",
+    "numpy>=2.2.6",
+    "urdf2mjcf>=0.2.38",
+    "pycollada>=0.9",
+    "numpy-stl>=3.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipython>=9.3.0",
+]
