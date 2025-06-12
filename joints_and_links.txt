@@ -1,0 +1,1479 @@
+Links:
+Name: world
+
+Name: ra_base_link
+
+Name: ra_base_link_inertia
+  Mass: 4.0
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[0.00610633 0.         0.        ]
+ [0.         0.00610633 0.        ]
+ [0.         0.         0.01125   ]]
+  Inertial origin:
+    Position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF354C0>
+    Origin position: [[-1.0000000e+00 -1.2246468e-16  0.0000000e+00  0.0000000e+00]
+ [ 1.2246468e-16 -1.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [-0.0000000e+00  0.0000000e+00  1.0000000e+00  0.0000000e+00]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: LightGrey
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF35CD0>
+    Origin position: [[-1.0000000e+00 -1.2246468e-16  0.0000000e+00  0.0000000e+00]
+ [ 1.2246468e-16 -1.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [-0.0000000e+00  0.0000000e+00  1.0000000e+00  0.0000000e+00]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: ra_shoulder_link
+  Mass: 7.369
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[ 3.408e-02  2.000e-05 -4.250e-03]
+ [ 2.000e-05  3.529e-02  8.000e-05]
+ [-4.250e-03  8.000e-05  2.156e-02]]
+  Inertial origin:
+    Position: [[ 1.0000000e+00  0.0000000e+00  0.0000000e+00  2.1000000e-02]
+ [ 0.0000000e+00 -3.8285687e-16 -1.0000000e+00 -2.7000000e-02]
+ [-0.0000000e+00  1.0000000e+00 -3.8285687e-16  0.0000000e+00]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF34A70>
+    Origin position: [[-1.0000000e+00 -1.2246468e-16  0.0000000e+00  0.0000000e+00]
+ [ 1.2246468e-16 -1.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [-0.0000000e+00  0.0000000e+00  1.0000000e+00  0.0000000e+00]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: LightGrey
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF344A0>
+    Origin position: [[-1.0000000e+00 -1.2246468e-16  0.0000000e+00  0.0000000e+00]
+ [ 1.2246468e-16 -1.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [-0.0000000e+00  0.0000000e+00  1.0000000e+00  0.0000000e+00]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: ra_upper_arm_link
+  Mass: 13.051
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[ 2.8140e-02  5.0000e-05 -1.5610e-02]
+ [ 5.0000e-05  7.7068e-01  2.0000e-05]
+ [-1.5610e-02  2.0000e-05  7.6943e-01]]
+  Inertial origin:
+    Position: [[ 1.      0.      0.     -0.2327]
+ [ 0.      1.      0.      0.    ]
+ [-0.      0.      1.      0.158 ]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF60DD0>
+    Origin position: [[ 6.12323400e-17  6.12323400e-17 -1.00000000e+00  0.00000000e+00]
+ [-1.00000000e+00  3.74939946e-33 -6.12323400e-17  0.00000000e+00]
+ [-0.00000000e+00  1.00000000e+00  6.12323400e-17  1.76200000e-01]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: LightGrey
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF609E0>
+    Origin position: [[ 6.12323400e-17  6.12323400e-17 -1.00000000e+00  0.00000000e+00]
+ [-1.00000000e+00  3.74939946e-33 -6.12323400e-17  0.00000000e+00]
+ [-0.00000000e+00  1.00000000e+00  6.12323400e-17  1.76200000e-01]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: ra_forearm_link
+  Mass: 3.989
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[1.0140e-02 8.0000e-05 9.1600e-03]
+ [8.0000e-05 3.0928e-01 0.0000e+00]
+ [9.1600e-03 0.0000e+00 3.0646e-01]]
+  Inertial origin:
+    Position: [[ 1.       0.       0.      -0.33155]
+ [ 0.       1.       0.       0.     ]
+ [-0.       0.       1.       0.068  ]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF634A0>
+    Origin position: [[ 6.12323400e-17  6.12323400e-17 -1.00000000e+00  0.00000000e+00]
+ [-1.00000000e+00  3.74939946e-33 -6.12323400e-17  0.00000000e+00]
+ [-0.00000000e+00  1.00000000e+00  6.12323400e-17  3.93000000e-02]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: LightGrey
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF63110>
+    Origin position: [[ 6.12323400e-17  6.12323400e-17 -1.00000000e+00  0.00000000e+00]
+ [-1.00000000e+00  3.74939946e-33 -6.12323400e-17  0.00000000e+00]
+ [-0.00000000e+00  1.00000000e+00  6.12323400e-17  3.93000000e-02]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: ra_wrist_1_link
+  Mass: 2.1
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[ 2.96e-03 -1.00e-05  0.00e+00]
+ [-1.00e-05  2.22e-03 -2.40e-04]
+ [ 0.00e+00 -2.40e-04  2.58e-03]]
+  Inertial origin:
+    Position: [[ 1.0000000e+00  0.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [ 0.0000000e+00 -3.8285687e-16 -1.0000000e+00 -1.8000000e-02]
+ [-0.0000000e+00  1.0000000e+00 -3.8285687e-16  7.0000000e-03]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF609B0>
+    Origin position: [[ 1.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00]
+ [ 0.000000e+00  6.123234e-17 -1.000000e+00  0.000000e+00]
+ [-0.000000e+00  1.000000e+00  6.123234e-17 -1.350000e-01]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: LightGrey
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF375F0>
+    Origin position: [[ 1.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00]
+ [ 0.000000e+00  6.123234e-17 -1.000000e+00  0.000000e+00]
+ [-0.000000e+00  1.000000e+00  6.123234e-17 -1.350000e-01]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: ra_wrist_2_link
+  Mass: 1.98
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[ 2.96e-03 -1.00e-05  0.00e+00]
+ [-1.00e-05  2.22e-03 -2.40e-04]
+ [ 0.00e+00 -2.40e-04  2.58e-03]]
+  Inertial origin:
+    Position: [[ 1.0000000e+00  0.0000000e+00 -0.0000000e+00  0.0000000e+00]
+ [ 0.0000000e+00 -3.8285687e-16  1.0000000e+00  1.8000000e-02]
+ [-0.0000000e+00 -1.0000000e+00 -3.8285687e-16 -7.0000000e-03]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF357F0>
+    Origin position: [[ 1.    0.    0.    0.  ]
+ [ 0.    1.    0.    0.  ]
+ [-0.    0.    1.   -0.12]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: LightGrey
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF36390>
+    Origin position: [[ 1.    0.    0.    0.  ]
+ [ 0.    1.    0.    0.  ]
+ [-0.    0.    1.   -0.12]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: ra_wrist_3_link
+  Mass: 0.615
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[0.0004  0.      0.     ]
+ [0.      0.00041 0.     ]
+ [0.      0.      0.00034]]
+  Inertial origin:
+    Position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.    -0.026]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF62CC0>
+    Origin position: [[ 1.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00]
+ [ 0.000000e+00  6.123234e-17 -1.000000e+00  0.000000e+00]
+ [-0.000000e+00  1.000000e+00  6.123234e-17 -1.168000e-01]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: LightGrey
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF85B20>
+    Origin position: [[ 1.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00]
+ [ 0.000000e+00  6.123234e-17 -1.000000e+00  0.000000e+00]
+ [-0.000000e+00  1.000000e+00  6.123234e-17 -1.168000e-01]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: ra_base
+
+Name: ra_flange
+
+Name: ra_tool0
+
+Name: rh_forearm
+  Mass: 3.0
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[0.0138  0.      0.     ]
+ [0.      0.0138  0.     ]
+ [0.      0.      0.00744]]
+  Inertial origin:
+    Position: [[ 1.    0.    0.    0.  ]
+ [ 0.    1.    0.    0.  ]
+ [-0.    0.    1.    0.09]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF629C0>
+    Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.006]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: light_grey
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF36EA0>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF86A50>
+    Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.006]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF84A40>
+    Origin position: [[ 0.71091354  0.          0.70327942  0.        ]
+ [ 0.          1.          0.         -0.01      ]
+ [-0.70327942  0.          0.71091354  0.187     ]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF84740>
+    Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.002]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_wrist
+  Mass: 0.1
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[3.50e-05 0.00e+00 0.00e+00]
+ [0.00e+00 6.40e-05 0.00e+00]
+ [0.00e+00 0.00e+00 4.38e-05]]
+  Inertial origin:
+    Position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.029]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF87F20>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: LightGrey
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA4290>
+    Origin position: [[-3.67320510e-06  1.00000000e+00 -3.67320510e-06  0.00000000e+00]
+ [-0.00000000e+00 -3.67320510e-06 -1.00000000e+00  0.00000000e+00]
+ [-1.00000000e+00 -3.67320510e-06  1.34924357e-11  0.00000000e+00]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA4380>
+    Origin position: [[-3.6732051e-06  0.0000000e+00  1.0000000e+00 -2.6000000e-02]
+ [-0.0000000e+00  1.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [-1.0000000e+00 -0.0000000e+00 -3.6732051e-06  3.4000000e-02]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA4410>
+    Origin position: [[-3.6732051e-06  0.0000000e+00  1.0000000e+00  3.1000000e-02]
+ [-0.0000000e+00  1.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [-1.0000000e+00 -0.0000000e+00 -3.6732051e-06  3.4000000e-02]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA44A0>
+    Origin position: [[ 0.70710548  0.          0.70710808 -0.021     ]
+ [ 0.          1.          0.          0.        ]
+ [-0.70710808  0.          0.70710548  0.011     ]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA4530>
+    Origin position: [[ 0.70710548 -0.         -0.70710808  0.026     ]
+ [ 0.          1.         -0.          0.        ]
+ [ 0.70710808  0.          0.70710548  0.01      ]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_palm
+  Mass: 0.3
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[0.0003581 0.        0.       ]
+ [0.        0.0005287 0.       ]
+ [0.        0.        0.000191 ]]
+  Inertial origin:
+    Position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.035]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF87CE0>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: Grey
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF878F0>
+    Origin position: [[ 1.      0.      0.      0.011 ]
+ [ 0.      1.      0.      0.0085]
+ [-0.      0.      1.      0.038 ]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF87830>
+    Origin position: [[ 1.      0.      0.     -0.002 ]
+ [ 0.      1.      0.     -0.0035]
+ [-0.      0.      1.      0.038 ]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF876E0>
+    Origin position: [[ 1.      0.      0.      0.029 ]
+ [ 0.      1.      0.     -0.0035]
+ [-0.      0.      1.      0.082 ]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF87710>
+    Origin position: [[ 0.96891242 -0.24247235  0.04915158  0.0265    ]
+ [ 0.24740396  0.94959868 -0.19249318 -0.001     ]
+ [-0.          0.19866933  0.98006658  0.07      ]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF868A0>
+    Origin position: [[ 1.      0.      0.      0.0315]
+ [ 0.      1.      0.     -0.0085]
+ [-0.      0.      1.      0.001 ]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF86450>
+    Origin position: [[ 0.88699492  0.46177918  0.          0.0125    ]
+ [-0.46177918  0.88699492 -0.         -0.015     ]
+ [-0.          0.          1.          0.009     ]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF85880>
+    Origin position: [[ 1.     0.     0.     0.011]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.089]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF86900>
+    Origin position: [[ 1.     0.     0.    -0.03 ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.009]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_manipulator
+
+Name: rh_imu
+
+Name: rh_ffknuckle
+  Mass: 0.008
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[2.6e-07 0.0e+00 0.0e+00]
+ [0.0e+00 2.6e-07 0.0e+00]
+ [0.0e+00 0.0e+00 3.2e-07]]
+  Inertial origin:
+    Position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF62C90>
+    Origin position: [[ 1.e+00  0.e+00  0.e+00  0.e+00]
+ [ 0.e+00  1.e+00  0.e+00  0.e+00]
+ [-0.e+00  0.e+00  1.e+00  5.e-04]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: LightGrey
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF62780>
+    Origin position: [[-3.6732051e-06  0.0000000e+00  1.0000000e+00  0.0000000e+00]
+ [-0.0000000e+00  1.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [-1.0000000e+00 -0.0000000e+00 -3.6732051e-06  0.0000000e+00]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_ffproximal
+  Mass: 0.03
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[9.8e-06 0.0e+00 0.0e+00]
+ [0.0e+00 1.0e-05 0.0e+00]
+ [0.0e+00 0.0e+00 1.8e-06]]
+  Inertial origin:
+    Position: [[1.     0.     0.     0.    ]
+ [0.     1.     0.     0.    ]
+ [0.     0.     1.     0.0225]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA4EF0>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: Grey
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA52E0>
+    Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.025]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_ffmiddle
+  Mass: 0.017
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[2.6e-06 0.0e+00 0.0e+00]
+ [0.0e+00 2.7e-06 0.0e+00]
+ [0.0e+00 0.0e+00 8.7e-07]]
+  Inertial origin:
+    Position: [[ 1.      0.      0.      0.    ]
+ [ 0.      1.      0.      0.    ]
+ [-0.      0.      1.      0.0125]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA5F70>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: Grey
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA6360>
+    Origin position: [[ 1.      0.      0.      0.    ]
+ [ 0.      1.      0.      0.    ]
+ [-0.      0.      1.      0.0125]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA6420>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA6510>
+    Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.025]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_ffdistal
+  Mass: 0.012
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[9.4e-07 0.0e+00 0.0e+00]
+ [0.0e+00 1.1e-06 0.0e+00]
+ [0.0e+00 0.0e+00 5.3e-07]]
+  Inertial origin:
+    Position: [[1.    0.    0.    0.   ]
+ [0.    1.    0.    0.   ]
+ [0.    0.    1.    0.012]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF86810>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA54F0>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_fftip
+  Mass: 0.001
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+  Inertial origin:
+    Position: [[1. 0. 0. 0.]
+ [0. 1. 0. 0.]
+ [0. 0. 1. 0.]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_mfknuckle
+  Mass: 0.008
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[2.6e-07 0.0e+00 0.0e+00]
+ [0.0e+00 2.6e-07 0.0e+00]
+ [0.0e+00 0.0e+00 3.2e-07]]
+  Inertial origin:
+    Position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA6A80>
+    Origin position: [[ 1.e+00  0.e+00  0.e+00  0.e+00]
+ [ 0.e+00  1.e+00  0.e+00  0.e+00]
+ [-0.e+00  0.e+00  1.e+00  5.e-04]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: LightGrey
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA5820>
+    Origin position: [[-3.6732051e-06  0.0000000e+00  1.0000000e+00  0.0000000e+00]
+ [-0.0000000e+00  1.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [-1.0000000e+00 -0.0000000e+00 -3.6732051e-06  0.0000000e+00]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_mfproximal
+  Mass: 0.03
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[9.8e-06 0.0e+00 0.0e+00]
+ [0.0e+00 1.0e-05 0.0e+00]
+ [0.0e+00 0.0e+00 1.8e-06]]
+  Inertial origin:
+    Position: [[1.     0.     0.     0.    ]
+ [0.     1.     0.     0.    ]
+ [0.     0.     1.     0.0225]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA7AD0>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: Grey
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA7CE0>
+    Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.025]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_mfmiddle
+  Mass: 0.017
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[2.6e-06 0.0e+00 0.0e+00]
+ [0.0e+00 2.7e-06 0.0e+00]
+ [0.0e+00 0.0e+00 8.7e-07]]
+  Inertial origin:
+    Position: [[ 1.      0.      0.      0.    ]
+ [ 0.      1.      0.      0.    ]
+ [-0.      0.      1.      0.0125]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF87500>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: Grey
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF87260>
+    Origin position: [[ 1.      0.      0.      0.    ]
+ [ 0.      1.      0.      0.    ]
+ [-0.      0.      1.      0.0125]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF86AE0>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF86F90>
+    Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.025]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_mfdistal
+  Mass: 0.012
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[9.4e-07 0.0e+00 0.0e+00]
+ [0.0e+00 1.1e-06 0.0e+00]
+ [0.0e+00 0.0e+00 5.3e-07]]
+  Inertial origin:
+    Position: [[1.    0.    0.    0.   ]
+ [0.    1.    0.    0.   ]
+ [0.    0.    1.    0.012]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF849B0>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF63EC0>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_mftip
+  Mass: 0.001
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+  Inertial origin:
+    Position: [[1. 0. 0. 0.]
+ [0. 1. 0. 0.]
+ [0. 0. 1. 0.]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_rfknuckle
+  Mass: 0.008
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[2.6e-07 0.0e+00 0.0e+00]
+ [0.0e+00 2.6e-07 0.0e+00]
+ [0.0e+00 0.0e+00 3.2e-07]]
+  Inertial origin:
+    Position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF62480>
+    Origin position: [[ 1.e+00  0.e+00  0.e+00  0.e+00]
+ [ 0.e+00  1.e+00  0.e+00  0.e+00]
+ [-0.e+00  0.e+00  1.e+00  5.e-04]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: LightGrey
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF61E50>
+    Origin position: [[-3.6732051e-06  0.0000000e+00  1.0000000e+00  0.0000000e+00]
+ [-0.0000000e+00  1.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [-1.0000000e+00 -0.0000000e+00 -3.6732051e-06  0.0000000e+00]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_rfproximal
+  Mass: 0.03
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[9.8e-06 0.0e+00 0.0e+00]
+ [0.0e+00 1.0e-05 0.0e+00]
+ [0.0e+00 0.0e+00 1.8e-06]]
+  Inertial origin:
+    Position: [[1.     0.     0.     0.    ]
+ [0.     1.     0.     0.    ]
+ [0.     0.     1.     0.0225]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF851C0>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: Grey
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF850D0>
+    Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.025]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_rfmiddle
+  Mass: 0.017
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[2.6e-06 0.0e+00 0.0e+00]
+ [0.0e+00 2.7e-06 0.0e+00]
+ [0.0e+00 0.0e+00 8.7e-07]]
+  Inertial origin:
+    Position: [[ 1.      0.      0.      0.    ]
+ [ 0.      1.      0.      0.    ]
+ [-0.      0.      1.      0.0125]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF61880>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: Grey
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF621E0>
+    Origin position: [[ 1.      0.      0.      0.    ]
+ [ 0.      1.      0.      0.    ]
+ [-0.      0.      1.      0.0125]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF61550>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF61340>
+    Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.025]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_rfdistal
+  Mass: 0.012
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[9.4e-07 0.0e+00 0.0e+00]
+ [0.0e+00 1.1e-06 0.0e+00]
+ [0.0e+00 0.0e+00 5.3e-07]]
+  Inertial origin:
+    Position: [[1.    0.    0.    0.   ]
+ [0.    1.    0.    0.   ]
+ [0.    0.    1.    0.012]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EEAF500>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E5EA15BE0>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_rftip
+  Mass: 0.001
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+  Inertial origin:
+    Position: [[1. 0. 0. 0.]
+ [0. 1. 0. 0.]
+ [0. 0. 1. 0.]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_lfmetacarpal
+  Mass: 0.03
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[1.450e-05 0.000e+00 0.000e+00]
+ [0.000e+00 1.638e-05 0.000e+00]
+ [0.000e+00 0.000e+00 4.272e-06]]
+  Inertial origin:
+    Position: [[ 0.5736019   0.          0.81913421  0.03174868]
+ [ 0.          1.          0.          0.        ]
+ [-0.81913421  0.          0.5736019   0.02235294]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF623F0>
+    Origin position: [[ 0.5736019   0.          0.81913421  0.        ]
+ [ 0.          1.          0.          0.        ]
+ [-0.81913421  0.          0.5736019   0.        ]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: Grey
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF875F0>
+    Origin position: [[ 0.5736019   0.          0.81913421  0.02698637]
+ [ 0.          1.          0.          0.        ]
+ [-0.81913421  0.          0.5736019   0.019     ]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_lfknuckle
+  Mass: 0.008
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[2.6e-07 0.0e+00 0.0e+00]
+ [0.0e+00 2.6e-07 0.0e+00]
+ [0.0e+00 0.0e+00 3.2e-07]]
+  Inertial origin:
+    Position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF842F0>
+    Origin position: [[ 1.e+00  0.e+00  0.e+00  0.e+00]
+ [ 0.e+00  1.e+00  0.e+00  0.e+00]
+ [-0.e+00  0.e+00  1.e+00  5.e-04]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: LightGrey
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF35AC0>
+    Origin position: [[-3.6732051e-06  0.0000000e+00  1.0000000e+00  0.0000000e+00]
+ [-0.0000000e+00  1.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [-1.0000000e+00 -0.0000000e+00 -3.6732051e-06  0.0000000e+00]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_lfproximal
+  Mass: 0.03
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[9.8e-06 0.0e+00 0.0e+00]
+ [0.0e+00 1.0e-05 0.0e+00]
+ [0.0e+00 0.0e+00 1.8e-06]]
+  Inertial origin:
+    Position: [[1.     0.     0.     0.    ]
+ [0.     1.     0.     0.    ]
+ [0.     0.     1.     0.0225]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF340B0>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: Grey
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EEFB500>
+    Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.025]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_lfmiddle
+  Mass: 0.017
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[2.6e-06 0.0e+00 0.0e+00]
+ [0.0e+00 2.7e-06 0.0e+00]
+ [0.0e+00 0.0e+00 8.7e-07]]
+  Inertial origin:
+    Position: [[ 1.      0.      0.      0.    ]
+ [ 0.      1.      0.      0.    ]
+ [-0.      0.      1.      0.0125]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF36C60>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: Grey
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF36F30>
+    Origin position: [[ 1.      0.      0.      0.    ]
+ [ 0.      1.      0.      0.    ]
+ [-0.      0.      1.      0.0125]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF37890>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF37A70>
+    Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.025]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_lfdistal
+  Mass: 0.012
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[9.4e-07 0.0e+00 0.0e+00]
+ [0.0e+00 1.1e-06 0.0e+00]
+ [0.0e+00 0.0e+00 5.3e-07]]
+  Inertial origin:
+    Position: [[1.    0.    0.    0.   ]
+ [0.    1.    0.    0.   ]
+ [0.    0.    1.    0.012]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF86D80>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA7A40>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_lftip
+  Mass: 0.001
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+  Inertial origin:
+    Position: [[1. 0. 0. 0.]
+ [0. 1. 0. 0.]
+ [0. 0. 1. 0.]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_thbase
+  Mass: 0.01
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[1.6e-07 0.0e+00 0.0e+00]
+ [0.0e+00 1.6e-07 0.0e+00]
+ [0.0e+00 0.0e+00 1.6e-07]]
+  Inertial origin:
+    Position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA7800>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: shadow_thbase_material
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA74D0>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_thproximal
+  Mass: 0.04
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[1.36e-05 0.00e+00 0.00e+00]
+ [0.00e+00 1.36e-05 0.00e+00]
+ [0.00e+00 0.00e+00 3.13e-06]]
+  Inertial origin:
+    Position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.019]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA4E30>
+    Origin position: [[ 6.123234e-17 -1.000000e+00  0.000000e+00  0.000000e+00]
+ [ 1.000000e+00  6.123234e-17  0.000000e+00  0.000000e+00]
+ [-0.000000e+00  0.000000e+00  1.000000e+00  0.000000e+00]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: shadow_thproximal_material
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA4F80>
+    Origin position: [[ 1.    0.    0.    0.  ]
+ [ 0.    1.    0.    0.  ]
+ [-0.    0.    1.    0.02]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_thhub
+  Mass: 0.005
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[1.e-06 0.e+00 0.e+00]
+ [0.e+00 1.e-06 0.e+00]
+ [0.e+00 0.e+00 3.e-07]]
+  Inertial origin:
+    Position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA5610>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: shadow_thhub_material
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA5970>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_thmiddle
+  Mass: 0.02
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[5.10e-06 0.00e+00 0.00e+00]
+ [0.00e+00 5.10e-06 0.00e+00]
+ [0.00e+00 0.00e+00 1.21e-06]]
+  Inertial origin:
+    Position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.016]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF61CD0>
+    Origin position: [[ 6.123234e-17 -1.000000e+00  0.000000e+00  0.000000e+00]
+ [ 1.000000e+00  6.123234e-17  0.000000e+00  0.000000e+00]
+ [-0.000000e+00  0.000000e+00  1.000000e+00  0.000000e+00]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: shadow_thmiddle_material
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF84DD0>
+    Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.012]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF84B00>
+    Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.019]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EF84DA0>
+    Origin position: [[-3.6732051e-06  0.0000000e+00  1.0000000e+00  0.0000000e+00]
+ [-0.0000000e+00  1.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [-1.0000000e+00 -0.0000000e+00 -3.6732051e-06  3.2000000e-02]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_thdistal
+  Mass: 0.016
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[2.1e-06 0.0e+00 0.0e+00]
+ [0.0e+00 2.2e-06 0.0e+00]
+ [0.0e+00 0.0e+00 1.0e-06]]
+  Inertial origin:
+    Position: [[ 1.       0.       0.       0.     ]
+ [ 0.       1.       0.       0.     ]
+ [-0.       0.       1.       0.01375]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+  Visuals:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFA4980>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+    Material name: shadow_thmiddle_material
+  Collisions:
+    Geometry: <urdfpy.urdf.Geometry object at 0x0000013E7EFB8260>
+    Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+    Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_thtip
+  Mass: 0.001
+  Inertia (ixx, ixy, ixz, iyy, iyz, izz): [[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+  Inertial origin:
+    Position: [[1. 0. 0. 0.]
+ [0. 1. 0. 0.]
+ [0. 0. 1. 0.]]
+    Rotation (rpy): [[0. 0. 0. 1.]]
+
+Joints:
+Name: ra_base_link-base_link_inertia
+  Parent link: ra_base_link
+  Child link: ra_base_link_inertia
+  Origin position: [[-1.0000000e+00 -1.2246468e-16  0.0000000e+00  0.0000000e+00]
+ [ 1.2246468e-16 -1.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [-0.0000000e+00  0.0000000e+00  1.0000000e+00  0.0000000e+00]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: ra_shoulder_pan_joint
+  Parent link: ra_base_link_inertia
+  Child link: ra_shoulder_link
+  Origin position: [[ 1.      0.      0.      0.    ]
+ [ 0.      1.      0.      0.    ]
+ [-0.      0.      1.      0.1807]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [0. 0. 1.]
+  Limits:
+    Lower: -6.283185307179586
+    Upper: 6.283185307179586
+    Effort: 330.0
+    Velocity: 2.0943951023931953
+
+Name: ra_shoulder_lift_joint
+  Parent link: ra_shoulder_link
+  Child link: ra_upper_arm_link
+  Origin position: [[ 1.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [ 0.00000000e+00 -2.05103429e-10 -1.00000000e+00  0.00000000e+00]
+ [-0.00000000e+00  1.00000000e+00 -2.05103429e-10  0.00000000e+00]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [0. 0. 1.]
+  Limits:
+    Lower: -6.283185307179586
+    Upper: 6.283185307179586
+    Effort: 330.0
+    Velocity: 2.0943951023931953
+
+Name: ra_elbow_joint
+  Parent link: ra_upper_arm_link
+  Child link: ra_forearm_link
+  Origin position: [[ 1.      0.      0.     -0.6127]
+ [ 0.      1.      0.      0.    ]
+ [-0.      0.      1.      0.    ]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [0. 0. 1.]
+  Limits:
+    Lower: -3.141592653589793
+    Upper: 3.141592653589793
+    Effort: 150.0
+    Velocity: 3.141592653589793
+
+Name: ra_wrist_1_joint
+  Parent link: ra_forearm_link
+  Child link: ra_wrist_1_link
+  Origin position: [[ 1.       0.       0.      -0.57155]
+ [ 0.       1.       0.       0.     ]
+ [-0.       0.       1.       0.17415]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [0. 0. 1.]
+  Limits:
+    Lower: -6.283185307179586
+    Upper: 6.283185307179586
+    Effort: 54.0
+    Velocity: 3.141592653589793
+
+Name: ra_wrist_2_joint
+  Parent link: ra_wrist_1_link
+  Child link: ra_wrist_2_link
+  Origin position: [[ 1.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [ 0.00000000e+00 -2.05103429e-10 -1.00000000e+00 -1.19850000e-01]
+ [-0.00000000e+00  1.00000000e+00 -2.05103429e-10 -2.45816459e-11]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [0. 0. 1.]
+  Limits:
+    Lower: -6.283185307179586
+    Upper: 6.283185307179586
+    Effort: 54.0
+    Velocity: 3.141592653589793
+
+Name: ra_wrist_3_joint
+  Parent link: ra_wrist_2_link
+  Child link: ra_wrist_3_link
+  Origin position: [[ 1.00000000e+00 -1.22464680e-16  1.22464680e-16  0.00000000e+00]
+ [-1.22464680e-16 -2.05103551e-10  1.00000000e+00  1.16550000e-01]
+ [-1.22464680e-16 -1.00000000e+00 -2.05103551e-10 -2.39048046e-11]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [0. 0. 1.]
+  Limits:
+    Lower: -6.283185307179586
+    Upper: 6.283185307179586
+    Effort: 54.0
+    Velocity: 3.141592653589793
+
+Name: ra_base_link-base_fixed_joint
+  Parent link: ra_base_link
+  Child link: ra_base
+  Origin position: [[-1.0000000e+00 -1.2246468e-16  0.0000000e+00  0.0000000e+00]
+ [ 1.2246468e-16 -1.0000000e+00  0.0000000e+00  0.0000000e+00]
+ [-0.0000000e+00  0.0000000e+00  1.0000000e+00  0.0000000e+00]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: ra_wrist_3-flange
+  Parent link: ra_wrist_3_link
+  Child link: ra_flange
+  Origin position: [[ 3.74939946e-33  1.00000000e+00 -6.12323400e-17  0.00000000e+00]
+ [-6.12323400e-17  6.12323400e-17  1.00000000e+00  0.00000000e+00]
+ [ 1.00000000e+00  0.00000000e+00  6.12323400e-17  0.00000000e+00]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: ra_flange-tool0
+  Parent link: ra_flange
+  Child link: ra_tool0
+  Origin position: [[ 6.12323400e-17 -6.12323400e-17  1.00000000e+00  0.00000000e+00]
+ [ 1.00000000e+00  3.74939946e-33 -6.12323400e-17  0.00000000e+00]
+ [-0.00000000e+00  1.00000000e+00  6.12323400e-17  0.00000000e+00]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_WRJ2
+  Parent link: rh_forearm
+  Child link: rh_wrist
+  Origin position: [[ 1.       0.       0.       0.     ]
+ [ 0.       1.       0.      -0.01   ]
+ [-0.       0.       1.       0.21301]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [0. 1. 0.]
+  Limits:
+    Lower: -0.5235987755982988
+    Upper: 0.17453292519943295
+    Effort: 10.0
+    Velocity: 2.0
+
+Name: rh_ee_fixed_joint
+  Parent link: rh_palm
+  Child link: rh_manipulator
+  Origin position: [[ 1.    0.    0.    0.  ]
+ [ 0.    1.    0.    0.  ]
+ [-0.    0.    1.    0.05]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_WRJ1
+  Parent link: rh_wrist
+  Child link: rh_palm
+  Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.034]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [1. 0. 0.]
+  Limits:
+    Lower: -0.6981317007977318
+    Upper: 0.4886921905584123
+    Effort: 30.0
+    Velocity: 2.0
+
+Name: rh_palm_to_imu
+  Parent link: rh_palm
+  Child link: rh_imu
+  Origin position: [[-1.00000000e+00 -6.53589793e-07  1.75128709e-14  1.78500000e-02]
+ [-0.00000000e+00  2.67948966e-08  1.00000000e+00  7.65000000e-03]
+ [-6.53589793e-07  1.00000000e+00 -2.67948966e-08  4.91250000e-02]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_FFJ4
+  Parent link: rh_palm
+  Child link: rh_ffknuckle
+  Origin position: [[ 1.     0.     0.     0.033]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.095]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [ 0. -1.  0.]
+  Limits:
+    Lower: -0.3490658503988659
+    Upper: 0.3490658503988659
+    Effort: 2.0
+    Velocity: 2.0
+
+Name: rh_FFJ3
+  Parent link: rh_ffknuckle
+  Child link: rh_ffproximal
+  Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [1. 0. 0.]
+  Limits:
+    Lower: -0.2617993877991494
+    Upper: 1.5707963267948966
+    Effort: 2.0
+    Velocity: 2.0
+
+Name: rh_FFJ2
+  Parent link: rh_ffproximal
+  Child link: rh_ffmiddle
+  Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.045]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [1. 0. 0.]
+  Limits:
+    Lower: 0.0
+    Upper: 1.5707963267948966
+    Effort: 2.0
+    Velocity: 2.0
+
+Name: rh_FFJ1
+  Parent link: rh_ffmiddle
+  Child link: rh_ffdistal
+  Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.025]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [1. 0. 0.]
+  Limits:
+    Lower: 0.0
+    Upper: 1.5707963267948966
+    Effort: 2.0
+    Velocity: 2.0
+
+Name: rh_FFtip
+  Parent link: rh_ffdistal
+  Child link: rh_fftip
+  Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.026]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_MFJ4
+  Parent link: rh_palm
+  Child link: rh_mfknuckle
+  Origin position: [[ 1.     0.     0.     0.011]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.099]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [ 0. -1.  0.]
+  Limits:
+    Lower: -0.3490658503988659
+    Upper: 0.3490658503988659
+    Effort: 2.0
+    Velocity: 2.0
+
+Name: rh_MFJ3
+  Parent link: rh_mfknuckle
+  Child link: rh_mfproximal
+  Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [1. 0. 0.]
+  Limits:
+    Lower: -0.2617993877991494
+    Upper: 1.5707963267948966
+    Effort: 2.0
+    Velocity: 2.0
+
+Name: rh_MFJ2
+  Parent link: rh_mfproximal
+  Child link: rh_mfmiddle
+  Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.045]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [1. 0. 0.]
+  Limits:
+    Lower: 0.0
+    Upper: 1.5707963267948966
+    Effort: 2.0
+    Velocity: 2.0
+
+Name: rh_MFJ1
+  Parent link: rh_mfmiddle
+  Child link: rh_mfdistal
+  Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.025]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [1. 0. 0.]
+  Limits:
+    Lower: 0.0
+    Upper: 1.5707963267948966
+    Effort: 2.0
+    Velocity: 2.0
+
+Name: rh_MFtip
+  Parent link: rh_mfdistal
+  Child link: rh_mftip
+  Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.026]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_RFJ4
+  Parent link: rh_palm
+  Child link: rh_rfknuckle
+  Origin position: [[ 1.     0.     0.    -0.011]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.095]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [0. 1. 0.]
+  Limits:
+    Lower: -0.3490658503988659
+    Upper: 0.3490658503988659
+    Effort: 2.0
+    Velocity: 2.0
+
+Name: rh_RFJ3
+  Parent link: rh_rfknuckle
+  Child link: rh_rfproximal
+  Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [1. 0. 0.]
+  Limits:
+    Lower: -0.2617993877991494
+    Upper: 1.5707963267948966
+    Effort: 2.0
+    Velocity: 2.0
+
+Name: rh_RFJ2
+  Parent link: rh_rfproximal
+  Child link: rh_rfmiddle
+  Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.045]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [1. 0. 0.]
+  Limits:
+    Lower: 0.0
+    Upper: 1.5707963267948966
+    Effort: 2.0
+    Velocity: 2.0
+
+Name: rh_RFJ1
+  Parent link: rh_rfmiddle
+  Child link: rh_rfdistal
+  Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.025]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [1. 0. 0.]
+  Limits:
+    Lower: 0.0
+    Upper: 1.5707963267948966
+    Effort: 2.0
+    Velocity: 2.0
+
+Name: rh_RFtip
+  Parent link: rh_rfdistal
+  Child link: rh_rftip
+  Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.026]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_LFJ5
+  Parent link: rh_palm
+  Child link: rh_lfmetacarpal
+  Origin position: [[ 0.5736019  -0.         -0.81913421 -0.033     ]
+ [ 0.          1.         -0.          0.        ]
+ [ 0.81913421  0.          0.5736019   0.02071   ]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [1. 0. 0.]
+  Limits:
+    Lower: 0.0
+    Upper: 0.7853981633974483
+    Effort: 2.0
+    Velocity: 2.0
+
+Name: rh_LFJ4
+  Parent link: rh_lfmetacarpal
+  Child link: rh_lfknuckle
+  Origin position: [[ 0.5736019   0.          0.81913421  0.05397275]
+ [ 0.          1.          0.          0.        ]
+ [-0.81913421  0.          0.5736019   0.03779463]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [0. 1. 0.]
+  Limits:
+    Lower: -0.3490658503988659
+    Upper: 0.3490658503988659
+    Effort: 2.0
+    Velocity: 2.0
+
+Name: rh_LFJ3
+  Parent link: rh_lfknuckle
+  Child link: rh_lfproximal
+  Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [1. 0. 0.]
+  Limits:
+    Lower: -0.2617993877991494
+    Upper: 1.5707963267948966
+    Effort: 2.0
+    Velocity: 2.0
+
+Name: rh_LFJ2
+  Parent link: rh_lfproximal
+  Child link: rh_lfmiddle
+  Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.045]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [1. 0. 0.]
+  Limits:
+    Lower: 0.0
+    Upper: 1.5707963267948966
+    Effort: 2.0
+    Velocity: 2.0
+
+Name: rh_LFJ1
+  Parent link: rh_lfmiddle
+  Child link: rh_lfdistal
+  Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.025]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [1. 0. 0.]
+  Limits:
+    Lower: 0.0
+    Upper: 1.5707963267948966
+    Effort: 2.0
+    Velocity: 2.0
+
+Name: rh_LFtip
+  Parent link: rh_lfdistal
+  Child link: rh_lftip
+  Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.026]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: rh_THJ5
+  Parent link: rh_palm
+  Child link: rh_thbase
+  Origin position: [[ 6.12323400e-17  7.07106781e-01  7.07106781e-01  3.40000000e-02]
+ [-1.00000000e+00  4.32978028e-17  4.32978028e-17 -8.58000000e-03]
+ [-0.00000000e+00 -7.07106781e-01  7.07106781e-01  2.90000000e-02]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [ 0.  0. -1.]
+  Limits:
+    Lower: -1.0471975511965976
+    Upper: 1.0471975511965976
+    Effort: 5.0
+    Velocity: 4.0
+
+Name: rh_THJ4
+  Parent link: rh_thbase
+  Child link: rh_thproximal
+  Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [0. 1. 0.]
+  Limits:
+    Lower: 0.0
+    Upper: 1.2217304763960306
+    Effort: 3.0
+    Velocity: 4.0
+
+Name: rh_THJ3
+  Parent link: rh_thproximal
+  Child link: rh_thhub
+  Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.038]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [0. 1. 0.]
+  Limits:
+    Lower: -0.20943951023931953
+    Upper: 0.20943951023931953
+    Effort: 2.0
+    Velocity: 4.0
+
+Name: rh_THJ2
+  Parent link: rh_thhub
+  Child link: rh_thmiddle
+  Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [1. 0. 0.]
+  Limits:
+    Lower: -0.6981317007977318
+    Upper: 0.6981317007977318
+    Effort: 2.0
+    Velocity: 2.0
+
+Name: rh_THJ1
+  Parent link: rh_thmiddle
+  Child link: rh_thdistal
+  Origin position: [[ 1.     0.     0.     0.   ]
+ [ 0.     1.     0.     0.   ]
+ [-0.     0.     1.     0.032]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+  Axis: [1. 0. 0.]
+  Limits:
+    Lower: -0.2617993877991494
+    Upper: 1.5707963267948966
+    Effort: 1.0
+    Velocity: 4.0
+
+Name: rh_thtip
+  Parent link: rh_thdistal
+  Child link: rh_thtip
+  Origin position: [[ 1.      0.      0.      0.    ]
+ [ 0.      1.      0.      0.    ]
+ [-0.      0.      1.      0.0275]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: world_joint
+  Parent link: world
+  Child link: ra_base_link
+  Origin position: [[ 1.  0.  0.  0.]
+ [ 0.  1.  0.  0.]
+ [-0.  0.  1.  0.]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+
+Name: ra_arm_to_hand
+  Parent link: ra_flange
+  Child link: rh_forearm
+  Origin position: [[-6.1232340e-17 -6.1232340e-17  1.0000000e+00  0.0000000e+00]
+ [-1.0000000e+00  1.2246468e-16 -6.1232340e-17  0.0000000e+00]
+ [-1.2246468e-16 -1.0000000e+00 -6.1232340e-17  0.0000000e+00]]
+  Origin rotation (rpy): [[0. 0. 0. 1.]]
+

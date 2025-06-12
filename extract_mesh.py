@@ -63,6 +63,7 @@ def main():
     parser = argparse.ArgumentParser(description='Extract mesh paths from a URDF file')
     parser.add_argument('urdf_file', help='Path to the URDF file')
     parser.add_argument('output_dir', help='Path to the output directory')
+    parser.add_argument('--urdf-only', '-u', action='store_true', help='Only process the URDF without copying meshes')
     args = parser.parse_args()
     
     # Extract and print mesh paths
@@ -71,9 +72,13 @@ def main():
     # Clean paths
     mesh_paths = [_remove_prefix(path) for path in mesh_paths]
 
-    # Copy meshes to the output directory
-    for path in mesh_paths:
-        copy_mesh(path, args.output_dir)
+    # Create output directory if it doesn't exist
+    Path(args.output_dir).mkdir(parents=True, exist_ok=True)
+
+    # Copy meshes to the output directory if not urdf-only
+    if not args.urdf_only:
+        for path in mesh_paths:
+            copy_mesh(path, args.output_dir)
 
     # Update the URDF file to reference the STL files instead of the DAE files
     with open(args.urdf_file, 'r') as file:
